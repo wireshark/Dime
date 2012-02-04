@@ -97,6 +97,13 @@ class Activity {
     protected $rateReference;
 
     /**
+     * @var integer $groupId (group of activities) 
+     * 
+     * @ORM\Column(name="group_id", type="integer", nullable=true)
+     */
+    protected $groupId;
+    
+    /**
      * Get id
      *
      * @return integer
@@ -360,7 +367,25 @@ class Activity {
         return $this->project;
     }
 
-
+    /**
+     * set groupId
+     * 
+     * @param integer $groupId
+     * @return \Dime\TimetrackerBundle\Entity\Activity 
+     */
+    public function setGroupId($groupId) {
+        $this->groupId = $groupId;
+        return $this;
+    }
+    
+    /**
+     * get groupId
+     * 
+     * @return integer 
+     */
+    public function getGroupId() {
+        return $this->groupId;
+    }
 
     /**
      * get project as string

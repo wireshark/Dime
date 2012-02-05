@@ -19,7 +19,7 @@ class LoadActivities extends AbstractFixture implements OrderedFixtureInterface
             'service'       => 'requirements',
             'duration'      => 7200, // 60 * 120
             'startedAt'     => '2011-11-13 10:02:34',
-            'stoppedAt'     => null,
+            'stoppedAt'     => '2011-11-13 12:02:34',
             'description'   => 'cwe: initial requirements meeting with customer',
             'rate'          => 50.0,
             'rateReference' => 'service',
@@ -28,7 +28,7 @@ class LoadActivities extends AbstractFixture implements OrderedFixtureInterface
             'service'       => 'requirements',
             'duration'      => 5400, // 60 * 90
             'startedAt'     => '2011-11-13 13:19:01',
-            'stoppedAt'     => null,
+            'stoppedAt'     => '2011-11-13 14:49:01',
             'description'   => 'cwe: requirements documentation',
             'rate'          => 50.0,
             'rateReference' => 'service',

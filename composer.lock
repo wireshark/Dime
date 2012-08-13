@@ -1,5 +1,5 @@
 {
-    "hash": "3e9e2dce86bb4722b783e2f6f21b2df3",
+    "hash": "9bbb220029e4062c2070874577e74717",
     "packages": [
         {
             "package": "doctrine/common",
@@ -56,6 +56,18 @@
             "commit-date": "1343202851"
         },
         {
+            "package": "fpn/doctrine-extensions-taggable",
+            "version": "dev-master",
+            "source-reference": "dac30481631608f8f0d0bb5ac88896b3efcb5f3b",
+            "commit-date": "1340829852"
+        },
+        {
+            "package": "fpn/tag-bundle",
+            "version": "dev-master",
+            "source-reference": "05518c2ccaf059414cfed51c0bbbfabd34fe44ea",
+            "commit-date": "1342458932"
+        },
+        {
             "package": "friendsofsymfony/rest",
             "version": "dev-master",
             "alias-pretty-version": "0.7.x-dev",
@@ -70,8 +82,8 @@
         {
             "package": "friendsofsymfony/rest-bundle",
             "version": "dev-master",
-            "source-reference": "fcb32e0aace5d0e1f00f8243483bde3fe01f77f9",
-            "commit-date": "1344290444"
+            "source-reference": "f6b31c6284a4a904b9dcd99c1e931b1967de26a7",
+            "commit-date": "1344874067"
         },
         {
             "package": "friendsofsymfony/user-bundle",
@@ -158,8 +170,8 @@
         {
             "package": "sensio/distribution-bundle",
             "version": "dev-master",
-            "source-reference": "57190e5baa0cc1d8ef6095ce57e6719a5eae2b79",
-            "commit-date": "1344240835"
+            "source-reference": "cc4eda1b49df3125fed9e440aeb49e8f057a912e",
+            "commit-date": "1344855180"
         },
         {
             "package": "sensio/framework-extra-bundle",
@@ -224,8 +236,8 @@
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "31536c36ec8875aee1406aa7d7a0b5e38a04af66",
-            "commit-date": "1344599303"
+            "source-reference": "fa4f9f58ff19b98cf91a60c356a7cc51e4383f9d",
+            "commit-date": "1344888947"
         },
         {
             "package": "twig/extensions",
@@ -249,7 +261,7 @@
             "package": "twitter/bootstrap",
             "version": "master",
             "source-reference": "master",
-            "commit-date": "1335417589"
+            "commit-date": "1338174478"
         }
     ],
     "packages-dev": null,
@@ -268,6 +280,8 @@
         "sensio/generator-bundle": 20,
         "fabpot/php-cs-fixer": 20,
         "phpugl/dime-timetracker-bundle": 20,
-        "phpugl/dime-timetracker-frontend-bundle": 20
+        "phpugl/dime-timetracker-frontend-bundle": 20,
+        "fpn/tag-bundle": 20,
+        "stof/doctrine-extensions-bundle": 20
     }
 }

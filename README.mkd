@@ -19,7 +19,7 @@ Our IRC channel is #dime-timetracker on Freenode.
 
 ## Demo
 
-  * URL: <http://demo.gitdime-timetracker.de/>
+  * URL: <http://demo.dime-timetracker.de/>
   * User: admin
   * Password: kitten
 
